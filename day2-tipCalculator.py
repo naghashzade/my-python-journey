@@ -5,4 +5,4 @@ people = input("How many people to split the bill? ")
 bill_and_tip = float(bill) +  ( float(bill) * float(tip) )/100
 result = float(bill_and_tip)/float(people)
 result_rounded = round(result, 2 )
-print(f"each of you must pay {result_rounded}$")
+print(f"each of you must pay: {result_rounded}$")
